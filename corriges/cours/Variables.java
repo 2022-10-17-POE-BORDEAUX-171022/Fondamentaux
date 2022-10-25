@@ -101,7 +101,7 @@ public class Variables {
         boolean marier = keyb.nextBoolean();
         
         // Affichage des variables
-        System.out.println("Nom : " + nom + "\nAge : " + age +  "\nGenre : " + genre + "\nTaille : " + taille + "\nEtat marial : " + !marier + "\n");
+        System.out.println("Nom : " + nom + "\nAge : " + age +  "\nGenre : " + genre + "\nTaille : " + taille + "\nEtat marital : " + !marier + "\n");
         keyb.close();
     }
 }
