@@ -11,10 +11,11 @@
  * (rappel : volume d'un cylindre = surface de section x hauteur).
  */
 
-package cours_exercices.exercices.hertiage;
+package corriges.exercices.heritage;
 
 // Classe Cercle
 
+import cours_exercices.exercices.hertiage.*;
 import cours_exercices.exercices.hertiage.autre.CompteBancaire;
 import cours_exercices.exercices.hertiage.autre.CompteEntreprise;
 
