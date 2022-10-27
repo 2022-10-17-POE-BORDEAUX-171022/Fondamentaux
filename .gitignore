@@ -1,0 +1,5 @@
+/Formation/nbproject/private/
+/Formation/build/
+**/*.classpath
+**/*.project
+**/bin
