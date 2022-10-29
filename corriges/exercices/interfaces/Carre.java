@@ -8,7 +8,8 @@ package corriges.exercices.interfaces;
  *
  * @author francois
  */
-public class Carre implements IFigureGeometrique {
+
+public class Carre implements IFigureGeometrique{
     
     private double cote;
     

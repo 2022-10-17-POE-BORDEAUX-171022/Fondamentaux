@@ -65,25 +65,16 @@ package corriges.exercices.interfaces;
 public class ExInterfaces {
     public static void main(String[] args) {
         
-        IFigureGeometrique carre = new Carre(4);
+        Carre carre = new Carre(4);
         afficheAire(carre);
-        affichePerimetre(carre);
         
-        IFigureGeometrique triangleRectangle = new TriangleRectangle(3,4);
-        afficheAire(triangleRectangle);
-        affichePerimetre(triangleRectangle);
         
-        IFigureGeometrique rectangle = new Rectangle(3,4);
-        afficheAire(rectangle);
-        affichePerimetre(rectangle);
-        
-        IFigureGeometrique cercle = new Cercle(4);
-        afficheAire(cercle);
-        affichePerimetre(cercle);
+        TriangleRectangle tr = new TriangleRectangle(3, 4);
+        afficheAire(tr);
     }
     
-    public static void afficheAire(IFigureGeometrique figureGeometrique){
-        System.out.println("L'aire vaut " + figureGeometrique.getAire());
+    public static void afficheAire(IFigureGeometrique figure){
+        System.out.println("L'aire vaut " + figure.getAire());
     }
     
     public static void affichePerimetre(IFigureGeometrique figureGeometrique){

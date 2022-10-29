@@ -25,9 +25,9 @@ public class Streams {
         
         // creer un stream manuellement.
         
-        // genere un stream d'int de 1 à 4.
+        // genere un stream d'int de 1 ï¿½ 4.
         
-        // genere un stream d'int de 1 à 5.
+        // genere un stream d'int de 1 ï¿½ 5.
         
         // genere un stream selon une formule donnee
         // exemple les 10 premiers nombres impairs

@@ -8,7 +8,7 @@ package corriges.exercices.interfaces;
  *
  * @author francois
  */
-public class Rectangle implements IFigureGeometrique {
+public class Rectangle implements IFigureGeometrique{
     
     private double coteA;
     private double coteB;
@@ -25,7 +25,7 @@ public class Rectangle implements IFigureGeometrique {
 
     @Override
     public double getPerimetre() {
-        return (this.coteA + this.coteB) * 2;
+       return 2*(this.coteA +this.coteB);
     }
     
 }

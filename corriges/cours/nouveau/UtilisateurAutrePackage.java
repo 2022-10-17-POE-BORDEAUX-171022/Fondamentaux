@@ -20,6 +20,10 @@ public class UtilisateurAutrePackage {
         //Ne fonctionne pas car la variable a la visibilité
         //package et que nous ne sommes pas dans le même package
         //mc.nomPackage = "nouveau nom";
+        
+        
+        
+        
 
     }
 

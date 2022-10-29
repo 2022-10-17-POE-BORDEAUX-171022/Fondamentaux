@@ -8,7 +8,7 @@ package corriges.exercices.interfaces;
  *
  * @author francois
  */
-public class TriangleRectangle implements IFigureGeometrique {
+public class TriangleRectangle implements IFigureGeometrique{
     
     private double base;
     private double hauteur;

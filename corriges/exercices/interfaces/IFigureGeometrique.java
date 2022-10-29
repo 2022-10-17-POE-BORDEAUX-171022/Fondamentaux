@@ -1,15 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package corriges.exercices.interfaces;
 
 /**
- *
+ * Ceci est une figure géométrique
  * @author francois
  */
 public interface IFigureGeometrique {
     
+    /**
+     * Renvoie l'aire en mètres carrés....
+     * @return 
+     */
     double getAire();
     
     double getPerimetre();
