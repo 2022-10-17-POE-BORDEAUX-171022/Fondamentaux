@@ -2,8 +2,6 @@ package corriges.tp;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -25,12 +23,12 @@ public class Aeroport {
         while (true) {
             for (ObjetVolant objetVolant : this.objetsVolants) {
                 try {
-                    Thread.sleep(3000);
+                    Thread.sleep(5000);
                 } catch (InterruptedException ex) {
                     System.out.println("Erreur grave");
                     return;
                 }
-                if (!objetVolant.prepareVole()) {
+                if (objetVolant.prepareVole()) {
                     objetVolant.decolle();
                     objetVolant.vole();
                     objetVolant.atterrit();
@@ -47,6 +45,11 @@ public class Aeroport {
         //Ajouter ici des avions
         //ObjetVolant objetVolant = new ....
         //charlesDeGaulle.ajoute(..);
+        charlesDeGaulle.ajoute(new Montgolfiere("Ballon montgolfiere 001"));
+        charlesDeGaulle.ajoute(new Dirigeable("Dirigeable 001"));
+        charlesDeGaulle.ajoute(new AvionDeLigne("Avion Air France Paris Berlin 77878"));
+        charlesDeGaulle.ajoute(new AvionTouristique("Avion touristique"));
+        charlesDeGaulle.ajoute(new Planeur("Planeur super léger"));
         charlesDeGaulle.demarre();
     }
 

@@ -1,6 +1,9 @@
 
 package corriges.tp;
 
+/**
+ * Décrit un objet volant.
+ */
 public interface ObjetVolant {
 
     /**
