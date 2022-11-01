@@ -5,7 +5,6 @@
 package cours_exercices.cours;
 
 // Classe Planete (objets de cette classe a trier de facon personalisee)
-    // Attributs
     
     // Constructeur
 
@@ -30,7 +29,8 @@ public class TriCollections {
         
         // Creation et chargement d'une liste de type List
 
-        // Implementation de Comparator : on instancie l'interface en fournissant immediatement l'implementation de la methode compare via un lambda
+        // Implementation de Comparator : on instancie l'interface en fournissant immediatement l'implementation de la methode
+        //compare via un lambda
         // Sert a la Methode 1 de tri personalise.
 
         // Methode 1 de tri personalise (via lambda)

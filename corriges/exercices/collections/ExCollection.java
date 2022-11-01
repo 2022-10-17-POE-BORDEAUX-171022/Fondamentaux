@@ -1,4 +1,5 @@
 /**
+/**
  * Exercice Collections
  *
  * Creer une liste vide
@@ -10,7 +11,7 @@
  * Parcourir la liste et afficher ses elements un par un
  * Supprimer un element de la liste et reafficher la liste
  */
-package cours_exercices.exercices.collection;
+package corriges.exercices.collections;
 
 // Classe principale
 import corriges.tp.Dirigeable;

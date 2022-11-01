@@ -24,6 +24,7 @@ public class Dirigeable extends PlusLegerQueLAir {
         afficheMessage("ne peut pas voler");
         this.etatEnveloppe = EtatEnveloppe.DECHIRE;
         return false;
+        
     }
 
     @Override
